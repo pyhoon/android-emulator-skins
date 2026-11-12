@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hardware>
+    <!-- Standard Nexus 5 hardware features -->
+    <screen>
+        <touchScreen>yes</touchScreen>
+        <keyboard>no</keyboard>
+        <camera>yes</camera>
+        <secondaryDisplay>yes</secondaryDisplay>
+    </screen>
+    <cpu>
+        <model>armeabi-v7a</model>
+        <count>4</count>
+    </cpu>
+    <memory>
+        <ram>1024</ram>
+    </memory>
+</hardware>

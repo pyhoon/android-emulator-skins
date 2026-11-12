@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <!-- Nexus 5 skin layout with secondary display support -->
+    <displayList>
+        <!-- Primary display (Nexus 5 screen) -->
+        <display id="1">
+            <displayName>Primary</displayName>
+            <avdDisplay>
+                <width>1080</width>
+                <height>1920</height>
+                <density>196</density>
+            </avdDisplay>
+            <virtualDisplay>
+                <width>1080</width>
+                <height>1920</height>
+                <density>196</density>
+            </virtualDisplay>
+        </display>
+
+        <!-- Secondary display (additional screen) -->
+        <display id="2">
+            <displayName>Secondary</displayName>
+            <isPrimary>no</isPrimary>
+            <avdDisplay>
+                <width>720</width>
+                <height>1280</height>
+                <density>196</density>
+            </avdDisplay>
+            <virtualDisplay>
+                <width>720</width>
+                <height>1280</height>
+                <density>196</density>
+            </virtualDisplay>
+        </display>
+    </displayList>
+
+    <!-- Hardware buttons -->
+    <hardwareButtons>
+        <menu>
+            <keycode>82</keycode>
+        </menu>
+        <back>
+            <keycode>4</keycode>
+        </back>
+        <home>
+            <keycode>3</keycode>
+        </home>
+    </hardwareButtons>
+
+    <!-- Skin specific settings -->
+    <skin>
+        <width>1080</width>
+        <height>1920</height>
+        <density>196</density>
+    </skin>
+</layout>

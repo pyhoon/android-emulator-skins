@@ -1,0 +1,72 @@
+parts {
+    portrait {
+        background {
+            image   background_port.png
+        }
+    }
+    landscape {
+        background {
+            image   background_land.png
+        }
+    }
+
+    device {
+        display {
+            width   1080
+            height  1920
+            x       0
+            y       0
+        }
+    }
+}
+
+layouts {
+    portrait {
+        width     1080
+        height    1920
+        color     0xff212121
+        event     EV_SW:0:1
+
+        part1 {
+            name    portrait
+            x       0
+            y       0
+        }
+
+        part2 {
+            name    device
+            x       0
+            y       0
+        }
+    }
+
+    landscape {
+        width     1920
+        height    1080
+        color     0xff212121
+        event     EV_SW:0:0
+        dpad-rotation 3
+
+        part1 {
+            name    landscape
+            x       0
+            y       0
+        }
+
+        part2 {
+            name    device
+            x       0
+            y       0
+            rotation 3
+        }
+    }
+}
+
+keyboard {
+    charmap qwerty2
+}
+
+network {
+    speed  full
+    delay  none
+}

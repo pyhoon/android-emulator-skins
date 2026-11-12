@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display>
+    <!-- Nexus 5 primary display -->
+    <displayName>Nexus 5</displayName>
+    <virtualDisplay>
+        <width>1080</width>
+        <height>1920</height>
+        <density>196</density>
+        <dpi>196</dpi>
+        <rgb>8888</rgb>
+        <touchScreen>multitouch</touchScreen>
+    </virtualDisplay>
+    <screenSize>4.95</screenSize>
+    <pixelAspectRatio>1:1</pixelAspectRatio>
+    <orientation>portrait</orientation>
+</display>
