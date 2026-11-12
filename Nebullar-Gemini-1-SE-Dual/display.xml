@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display>
+    <!-- Primary display: 15.6" FHD IPS -->
+    <displayName>Primary</displayName>
+    <virtualDisplay>
+        <width>1920</width>
+        <height>1080</height>
+        <density>240</density>
+        <dpi>240</dpi>
+        <rgb>8888</rgb>
+        <touchScreen>multitouch</touchScreen>
+    </virtualDisplay>
+    <screenSize>15.6</screenSize>
+    <pixelAspectRatio>1:1</pixelAspectRatio>
+    <orientation>portrait</orientation>
+
+    <!-- Secondary display: 10.1" WXGA -->
+    <displayName>Secondary</displayName>
+    <isSecondary>yes</isSecondary>
+    <virtualDisplay>
+        <width>1280</width>
+        <height>800</height>
+        <density>150</density>
+        <dpi>150</dpi>
+        <rgb>8888</rgb>
+        <touchScreen>multitouch</touchScreen>
+    </virtualDisplay>
+    <screenSize>10.1</screenSize>
+    <pixelAspectRatio>1:1</pixelAspectRatio>
+    <orientation>portrait</orientation>
+</display>

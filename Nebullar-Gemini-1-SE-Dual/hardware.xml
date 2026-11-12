@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hardware>
+    <!-- Tablet hardware features for Nebullar Gemini 1 SE -->
+    <screen>
+        <touchScreen>yes</touchScreen>
+        <keyboard>no</keyboard>
+        <camera>yes</camera>
+        <secondaryDisplay>yes</secondaryDisplay>
+    </screen>
+    <cpu>
+        <model>x86_64</model>
+        <count>8</count>
+    </cpu>
+    <memory>
+        <ram>4096</ram>
+    </memory>
+</hardware>
